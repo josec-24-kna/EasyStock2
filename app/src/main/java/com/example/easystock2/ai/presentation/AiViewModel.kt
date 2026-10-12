@@ -20,7 +20,7 @@ class AiViewModel(
 ) : ViewModel() {
 
     // IMPORTANTE: Pega tu API Key de Google AI Studio aquí
-    private val API_KEY = "AQ.Ab8RN6Lv6K4uHRKFrRQpE4eCx1LMl8nUH4Kh4v4j75v3KcjjQw"
+    private val API_KEY = "TU_LLAVE_AQUI"
 
     private val _recommendation = MutableStateFlow<String?>(null)
     val recommendation: StateFlow<String?> = _recommendation.asStateFlow()
